@@ -1,13 +1,13 @@
-//"auth != null"
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAqmwOKmyoXf7j96Gn1mbUORkPuumv8HHE",
-  authDomain: "esp32-fb-147df.firebaseapp.com",
-  databaseURL: "https://esp32-fb-147df-default-rtdb.firebaseio.com",
-  projectId: "esp32-fb-147df",
-  storageBucket: "esp32-fb-147df.appspot.com",
-  messagingSenderId: "183579042838",
-  appId: "1:183579042838:web:1a5b7e693d1e05f6c0c137",
-  measurementId: "G-ZKJ98ML66F"
+  apiKey: "API KEY GOES HERE",
+  authDomain: "AUTH DOMAIN GOES HERE",
+  databaseURL: "DATABASE URL GOES HERE",
+  projectId: "PROJECT ID GOES HERE",
+  storageBucket: "STORAGE BUCKET GOES HERE",
+  messagingSenderId: "MESSAGING SENDER ID GOES HERE",
+  appId: "APP ID GOES HERE",
+  measurementId: "MEASUREMENT ID GOES HERE"
 };
 
 
