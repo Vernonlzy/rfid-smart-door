@@ -26,11 +26,11 @@ const long gmtOffset_sec = -18000;           // Change the time gmtOffset_sec va
 const int daylightOffset_sec = 0;    // defines the offset in seconds for daylight saving time (seconds)
 
 // rmb to censor this!
-#define API_KEY "AIzaSyAqmwOKmyoXf7j96Gn1mbUORkPuumv8HHE"
-#define PROJECT_ID "esp32-fb-147df"
-#define DATABASE_URL "https://esp32-fb-147df-default-rtdb.firebaseio.com/"
-#define USER_EMAIL "rfidsmartdoor@gmail.com"
-#define USER_PASSWORD "RFIDSmartDoorLock"
+#define API_KEY "API KEY GOES HERE"
+#define PROJECT_ID "PROJECT ID GOES HERE"
+#define DATABASE_URL "DATABASE URL GOES HERE"
+#define USER_EMAIL "USER EMAIL GOES HERE"
+#define USER_PASSWORD "USER PASSWORD GOES HERE"
 
 FirebaseData firebaseData;
 FirebaseAuth auth;
@@ -46,7 +46,7 @@ void setup() {
   pinMode(RED_LED_PIN, OUTPUT);
   pinMode(BUZZER_PIN, OUTPUT);
 
-  WiFi.begin("test", "freewifi434436438");
+  WiFi.begin("SSID", "PASSWORD");
   Serial.print("Connecting to WiFi");
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
