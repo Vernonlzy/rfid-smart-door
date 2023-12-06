@@ -1,27 +1,8 @@
-Certainly! Below is the README content in Markdown format:
-
-```markdown
 # RFID Smart Door System
 
 ## Overview
 
 The RFID Smart Door System is an ESP32-based project that integrates RFID card authentication with Firebase for user management and timestamp logging. This system controls access to a door, logs successful and unsuccessful entries, and provides a remote control feature through a web interface.
-
-## Table of Contents
-
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Configuration](#configuration)
-  - [Hardware Setup](#hardware-setup)
-  - [Firebase Setup](#firebase-setup)
-- [Usage](#usage)
-  - [Web Interface](#web-interface)
-  - [User Management](#user-management)
-  - [Timestamps](#timestamps)
-- [Code Structure](#code-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -92,6 +73,4 @@ Contributions are welcome! Feel free to open issues or pull requests.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
 
-Feel free to customize this Markdown document further based on additional features, specific configurations, or any other relevant information specific to your project.
