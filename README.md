@@ -20,7 +20,7 @@ Before you begin, make sure you have the following installed:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/rfid-smart-door.git
+   git clone https://github.com/vernonlzy/rfid-smart-door.git
    ```
 
 2. Open the Arduino IDE and upload the `.ino` code to your ESP32 board.
