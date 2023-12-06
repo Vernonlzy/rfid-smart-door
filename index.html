@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Firebase Users</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Firebase Users</h3>
+
+      <!-- Users section -->
+      <div>
+        <h4>Users</h4>
+        <ul id="userList" class="list-group"></ul>
+        <div id="root"></div>
+        <div>
+            <!-- Add User section -->
+
+            <h4>Add User</h4>
+          <input
+            type="text"
+            id="newUserInput"
+            placeholder="New User Name"
+          />
+          <button class="btn btn-primary" onclick="addUser()">Add User</button>
+        </div>
+
+        <!-- Delete User section -->
+        <div>
+            <h4>Delete User</h4>
+            <input type="text" id="deleteUserInput" placeholder="User Name" />
+            <button class="btn btn-danger" onclick="deleteUser()">Delete User</button>
+        </div>
+      </div>
+
+      <!-- Timestamps section -->
+      <div>
+        <h4>Timestamps</h4>
+        
+        <!-- Remote Timestamps -->
+        <div>
+            <h4>
+                <div>Remote</div>
+            </h4>
+            <div class="scrollable-box">
+                <button type="button" class="collapsible"></button>
+                <ul id="remoteList" class="list-group"></ul>    
+            </div>
+        </div>
+
+        <!-- Successful Timestamps -->
+        <div>
+            <h4>
+                <div>Successful</div>
+            </h4>
+            
+            <div class="scrollable-box">
+                <button type="button" class="collapsible"></button>
+                <ul id="successfulList" class="list-group"></ul>
+            </div>
+        </div>
+
+        <!-- Unsuccessful Timestamps -->
+        <div>
+            <h4>
+                <div>Unsuccessful</div>
+            </h4>
+            <div class="scrollable-box">
+                <button type="button" class="collapsible"></button>
+                <ul id="unsuccessfulList" class="list-group"></ul>
+            </div>
+        </div>
+
+      </div>
+
+      <!-- Remote Control Section -->
+      <div>
+        <h4>Remote Control</h4>
+        <label class="switch">
+            <input type="checkbox" id="remoteControlSwitch" />
+            <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
