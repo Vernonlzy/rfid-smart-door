@@ -1,8 +1,8 @@
-# RFID Smart Door System
+# RFID Door System
 
 ## Overview
 
-The RFID Smart Door System is an ESP32-based project that integrates RFID card authentication with Firebase for user management and timestamp logging. This system controls access to a door, logs successful and unsuccessful entries, and provides a remote control feature through a web interface.
+The RFID Door System is an ESP32-based project that integrates RFID card authentication with Firebase for user management and timestamp logging. This system controls access to a door, logs successful and unsuccessful entries, and provides a remote control feature through a web interface.
 
 ## Getting Started
 
